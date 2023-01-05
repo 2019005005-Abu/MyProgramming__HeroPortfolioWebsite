@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.btn-primary{
+  color: #FFFFFF;
+  height: 64px;  
+  font-weight: 700;
+  font-size: 20px;
+  border-radius: 5px;
+  background-color: #FD6E0A;
+  border: 0;
+  padding: 18px 35px;
+}
+.header{
+    margin-top: -48px;
+    background-color: #FFF8F3;
+    background-image: url('./images/header_bg.png'),url("./images//developer.png");
+    background-repeat: no-repeat;
+    background-position: bottom right,left;
+}
+/* header and navigation style */
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 200px;
+}
+nav li{
+    list-style: none;
+    margin-left:50px;
+   
+}
+nav ul {
+    display: flex;
+    align-items: center;
+}
+.nav-title{
+    font-size:800;
+    font-size: 45px;
+}
+
+.text-primary{
+    color: #FD6E0A;
+}
+
+/* banner-Style */
+.banner{
+    display:flex;
+    align-items: center;
+    margin: 0 200px;
+}
+.banner-title{
+  font-weight: 700;
+  font-size: 85px;
+  margin-bottom: 20px;
+}
+.banner-sub-title{
+   font-weight: 600;
+   font-size: 45px; 
+}
+.banner-description{
+    color:#757575 ;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+/* main section  */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* about section stylesing */
+.about{
+   text-align: center;
+   margin-top: 130px;
+   background-color:#FFF8F3 ;
+   border-radius: 10px;
+   padding: 130px 150px;
+}
+.section-title{
+
+  font-weight: 700;
+  font-size: 35px;
+  margin-bottom: 30px;
+}
+.section-description{
+  color: #757575;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about .info-title{
+    font-size: 20px;
+    color: #757575;
+}
+.about .info-description{
+  font-weight: 700;
+  font-size: 20px;
+  color: #474747;
+}
+
+/* What I do style start from here */
+.what_I_Do{
+   display: flex; 
+   gap: 24px;
+}
+.skill{
+    background-color: #FFFFFF;
+     box-shadow: 0px 6px 50px rgba(0,0,0,0.06);
+     border-radius: 5px;
+     padding: 30px;
+}
+.section-title{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.skill-title{
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.skill-description{
+    color: #757575;
+}
+/* What I do ends from here */
+
+/* Resume section starts from here */
+ .resume{
+   margin-top: 50px;
+   margin-bottom: 50px;
+ }
+ .section_title1{
+   text-align: center;
+   font-size: 35px;
+ }
+/* Resume section ends from here */
+.resume__container{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    margin-top: 50px;
+}
+.resume .title{
+  font-weight: 700;
+  font-size: 25px;
+  color: #474747;
+  margin-bottom: 10px;
+}
+.resume .sub-title{
+  color: #757575;
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.resume .description{
+
+color: #757575;
+}
+.resume_item{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.resume_btn{
+    text-align: center;
+}
+.footer_container{
+    display: flex;
+    justify-content: space-around;
+    gap: 100px;
+    background-color: #FFF8F3;
+    padding: 130px 200px;
+}
+
+.lets_message input{
+ width: 100%;
+ margin: 10px 20px;
+ padding: 10px 20px;
+}
+.lets_message textarea{
+  margin: 10px 20px;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+}
+.lets_connect_description{
+    margin-bottom: 40px;
+}
+.lets_connect .social_media{
+    margin: 10px;
+    
+}
